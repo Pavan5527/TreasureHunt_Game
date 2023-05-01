@@ -1,7 +1,7 @@
 
 ## GENERAL INFORMATION AND SCOPE OF THE PROJECT :-
 
-This is a Treasure Hunt Game titled - <ins>**'Mystery Mansion'**</ins>, which is used to test the different soft skills of the users. The basic scope and target of this application is to analyze the thinking ability, attention to detail and the focus power of the users. This game/puzzle interacts with the users in a seamless and effective manner, so as to provide the best user experience. By playing this game, the users get to know their own capabilities and cognitive skills, which they can sharpen so as to apply them in the corporate world.
+This is a Treasure Hunt Game , which is used to test the different soft skills of the users. The basic scope and target of this application is to analyze the thinking ability, attention to detail and the focus power of the users. This game/puzzle interacts with the users in a seamless and effective manner, so as to provide the best user experience. By playing this game, the users get to know their own capabilities and cognitive skills, which they can sharpen so as to apply them in the corporate world.
 
 ## TECHNICAL INFORMATION :-
 
