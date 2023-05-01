@@ -55,65 +55,6 @@ iv) To run the application, use the following command -
 
 <br><br>
 
-## PACKAGES AND DEPENDENCIES USED IN THE APPLICATION :-
-
-This project has been configured with the help of <ins>**NPM (Node Package Manager)**</ins>. All of the packages that have been used in this project are installed through NPM.
-Following is the list of dependencies installed and used in this project :- 
-
-i) <ins>**mongoose.js**</ins> - used to establish a connection between Node.js and MongoDB Atlas, also used to create the Schema of the Collections in the Database.
-<br>
-ii) <ins>**express.js**</ins> - used to create a server to launch the application on the browser.
-<br>
-iii) <ins>**dotenv**</ins> - used to create a <ins>**'config.env'**</ins> file, which stores the sensitive information (Database URL, Port Number) securely.
-<br>
-iv) <ins>**ejs**</ins> - used as a template engine in Node.js, which can be used to create HTML files for the Frontend.
-<br>
-v) <ins>**validator**</ins> - used to verify that the Email entered by the user is valid or not.
-
-
-## DIFFERENT ROUTES IN THE APPLICATION :-
-
-The routes of this application have been defined inside the <ins>**'src'**</ins> folder, and then inside the <ins>**'templates'**</ins> folder. Inside the <ins>**'templates'**</ins> folder there is a <ins>**'views'**</ins> folder which contains all the routes of this application.
-
-i) <ins>**index.ejs**</ins> - This is the Home page of the application.
-<br>
-ii) <ins>**table.ejs**</ins> - This page displays the Email ID's and the User ID's of all the users who have logged into the application to play the game.
-<br>
-iii) <ins>**login.ejs**</ins> - This page contains a form, which asks the users for their Email ID and the password they want to set.
-<br>
-iv) <ins>**instructions.ejs**</ins> - This page contains the instructions and rules of the game.
-<br>
-v) <ins>**game.ejs**</ins> - This page contains the HTML code for the game.
-<br>
-vi) <ins>**score.ejs**</ins> - This page contains a form, in which the users have to enter their name and score acheived in the game.
-<br>
-vii) <ins>**result.ejs**</ins> - This page displays the name and the score of all the users who have played the game.
-<br>
-viii) <ins>**clues.ejs**</ins> - This page contains different clues, hints and references on how to play the game. 
-
-<br>
-
-## DATABASE INFORMATION :-
-
-i) I have chosen the MongoDB Atlas online Database to store the data of this application.
-<br>
-ii) The MongoDB Atlas has a Database with the name - **'Treasure_Hunt_Database'**.
-<br>
-iii) This Database has 2 collections - <ins>**'users'**</ins> and <ins>**'results'.**</ins>
-<br>
-iv) The 'users' collection contains the Email and Password of different users who play the game.
-<br>
-v) The 'results' collection contains the Name and Scores of different users who play the game.
-
-The code for configuring the Database is present inside the <ins>**'db'**</ins> folder.
-
-This folder contains a file <ins>**'conn.js'**</ins> in which the connection between Node.js and MongoDB Atlas has been defined using Mongoose.
-
-This folder also contains a folder <ins>**'models'**</ins>, which has 2 files - 
-<br>
-i) <ins>**'userSchema.js'**</ins> - in this file, I have defined the Schema for the 'users' collection.
-<br>
-ii) <ins>**'resultSchema.js'**</ins> - in this file, I have defined the Schema for the 'results' collection.
 
 <br>
 
