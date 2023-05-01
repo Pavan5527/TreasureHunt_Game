@@ -55,8 +55,6 @@ iv) To run the application, use the following command -
 
 <br><br>
 
-<br>
-
 ## CLUES IN THE GAME :- 
 
 I have provided a total of 5 References and Clues to solve the game
