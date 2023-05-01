@@ -55,7 +55,6 @@ iv) To run the application, use the following command -
 
 <br><br>
 
-
 <br>
 
 ## CLUES IN THE GAME :- 
